@@ -1,0 +1,33 @@
+name: app_an_kien
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fitness: ^1.0.0
+  animated_toggle_switch: ^2.0.0
+  cupertino_icons: ^1.0.8
+  simple_animation_progress_bar: ^1.0.0
+  json_annotation: ^4.5.0  # hoặc phiên bản mới nhất mà bạn muốn  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.3.0  # hoặc phiên bản mới nhất mà bạn muốn  
+  json_serializable: ^6.1.0  # hoặc phiên bản mới nhất mà bạn muốn  
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
