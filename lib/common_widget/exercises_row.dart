@@ -30,10 +30,7 @@ class ExercisesRow extends StatelessWidget {
             children: [
               Text(
                 eObj["title"].toString(),
-                style: TextStyle(
-                    color: TColor.black,
-                    fontSize: 14,
-                    fontWeight: FontWeight.w500),
+                style: TextStyle(color: TColor.black, fontSize: 14, fontWeight: FontWeight.w500),
               ),
               Text(
                 eObj["value"].toString(),

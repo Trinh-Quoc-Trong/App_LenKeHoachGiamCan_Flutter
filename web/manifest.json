@@ -1,6 +1,6 @@
 {
-    "name": "app_an_kien",
-    "short_name": "app_an_kien",
+    "name": "fitness",
+    "short_name": "fitness",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
