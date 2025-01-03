@@ -211,7 +211,7 @@ class _MealPlannerViewState extends State<MealPlannerView> {
                               }).toList();
                             },
                             touchTooltipData: LineTouchTooltipData(
-                              tooltipBgColor: TColor.secondaryColor1,
+                              getTooltipColor: (touchedSpot) => TColor.secondaryColor1,
                               tooltipRoundedRadius: 20,
                               getTooltipItems:
                                   (List<LineBarSpot> lineBarsSpot) {
